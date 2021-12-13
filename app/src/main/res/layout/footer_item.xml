@@ -33,7 +33,7 @@
         android:layout_height="wrap_content"
         android:visibility="gone"
         android:layout_gravity="center"
-        android:backgroundTint="@color/primaryColor"
+        android:backgroundTint="@color/blue"
         android:text="@string/try_again"
         android:textColor="@color/white" />
 </LinearLayout>

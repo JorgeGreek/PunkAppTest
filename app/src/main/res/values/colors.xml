@@ -9,13 +9,6 @@
     <color name="white">#FFFFFFFF</color>
 
 
-    <color name="primaryColor">#e80000</color>
-    <color name="primaryLightColor">#ff5533</color>
-    <color name="primaryDarkColor">#ad0000</color>
-    <color name="primaryTextColor">#ffffff</color>
-
-
-
     <color name="backgorundListColor">#c3D6E4</color>
     <color name="primaryThemeColor">#5D90B8</color>
     <color name="goodBlue">#365E7C</color>

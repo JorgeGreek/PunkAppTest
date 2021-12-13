@@ -39,7 +39,6 @@
             android:layout_marginEnd="10dp"
             android:textSize="18sp"
             android:textStyle="bold"
-            app:layout_constraintBottom_toTopOf="@+id/year"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/image"
             app:layout_constraintTop_toTopOf="@+id/image" />
@@ -56,24 +55,24 @@
             app:layout_constraintStart_toStartOf="@+id/name" />
 
 
-
-        <ImageView
-            android:id="@+id/ic_thermostat"
-            android:layout_width="20dp"
-            android:layout_height="30dp"
-            android:src="@drawable/ic_thermostat"
-            app:layout_constraintBottom_toBottomOf="@+id/image"
-            app:layout_constraintStart_toStartOf="@+id/year"/>
-
         <TextView
             android:id="@+id/abv"
             android:layout_width="wrap_content"
             android:layout_height="30dp"
             android:gravity="center_vertical"
             android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="@+id/image"
+            app:layout_constraintStart_toStartOf="@+id/year" />
+
+        <ImageView
+            android:id="@+id/ic_thermostat"
+            android:layout_width="20dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_thermostat"
             android:layout_marginLeft="3dp"
-            app:layout_constraintLeft_toRightOf="@+id/ic_thermostat"
-            app:layout_constraintBottom_toBottomOf="@+id/image" />
+            app:layout_constraintLeft_toRightOf="@+id/abv"
+            app:layout_constraintBottom_toBottomOf="@+id/image"/>
+
 
 
         <TextView
